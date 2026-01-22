@@ -5,11 +5,8 @@ const nextConfig: NextConfig = {
     images: {
         unoptimized: true
     },
-    basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : '',
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/your-repo-name/' : '',
-    env: {
-        basePath: process.env.NODE_ENV === 'production' ? '/your-repo-name' : ''
-    }
+    basePath: '/personal-site',
+    assetPrefix: '/personal-site/'
 };
 
 export default nextConfig;
