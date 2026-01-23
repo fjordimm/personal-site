@@ -1,10 +1,10 @@
 interface TextContentProps {
-    children?: React.ReactNode
+    children?: Readonly<React.ReactNode>
 }
 
 export default function TextContent({ children }: TextContentProps) {
     return (
-        <div className="text-content font-serif text-beige-main flex flex-col gap-1">
+        <div className="text-content font-serif text-beige-main flex flex-col items-start gap-1">
             {children}
         </div>
     );

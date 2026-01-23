@@ -8,11 +8,11 @@ interface NavbarItemProps {
 }
 
 export default function NavbarItem({ name, href }: NavbarItemProps) {
-    const pathname = usePathname();
+    const isOnTab = href === usePathname().match(/\/[^\/]+/)?.[0];
 
     return (
         <Link href={href}>
-            <h2 className={`font-sans text-2xl font-bold bg-beige-main px-7 py-2 rounded-full ${pathname === href ? "navbar-item-shadow" : ""}`}>{name}</h2>
+            <h2 className={`font-sans text-2xl font-bold bg-beige-main px-7 py-2 rounded-full ${isOnTab ? "navbar-item-shadow" : ""}`}>{name}</h2>
         </Link>
     );
 }

@@ -1,5 +1,5 @@
 interface CardGridProps {
-    children?: React.ReactNode
+    children?: Readonly<React.ReactNode>
 }
 
 export default function CardGrid({ children }: CardGridProps) {

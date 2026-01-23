@@ -8,10 +8,7 @@ export default function Projects() {
         <TextContent>
             <h1>Projects</h1>
             <CardGrid>
-                <Card name="Midi Chord Practice" href="/" image={personalBackground}></Card>
-                <Card name="Midi Chord Practice" href="/" image={personalBackground}></Card>
-                <Card name="Midi Chord Practice" href="/" image={personalBackground}></Card>
-                <Card name="Midi Chord Practice" href="/" image={personalBackground}></Card>
+                <Card name="Midi Chord Practice" href="/projects/midiChordPractice" image={personalBackground}></Card>
             </CardGrid>
         </TextContent>
     );

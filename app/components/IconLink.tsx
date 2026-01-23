@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 interface IconLinkProps {
-    children?: React.ReactNode,
+    children?: Readonly<React.ReactNode>,
     href: string
 }
 

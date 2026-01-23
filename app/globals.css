@@ -1,7 +1,9 @@
 @import "tailwindcss";
 @tailwind utilities;
 
-:root {}
+:root {
+    --main-shadow-color: #00000088;
+}
 
 @theme inline {
     --color-beige-main: #D8C1B4;
@@ -9,8 +11,7 @@
     --color-beige-darker: #AB988F;
     --color-beige-darker2: #75675f;
     --color-purple: #291F26;
-    --color-content-inner-overlay: #291F2690;
-    --color-very-light-shadow: #00000030;
+    --color-content-inner-overlay: #1c151a90;
 
     --font-sans: var(--font-mukta);
     --font-serif: var(--font-aleo);
@@ -18,15 +19,15 @@
 
 @layer utilities {
     .inset-shadow-top {
-        box-shadow: inset 0 30px 30px -30px #00000088;
+        box-shadow: inset 0 30px 30px -30px var(--main-shadow-color);
     }
 
     .outset-shadow-sides {
-        box-shadow: 0 0 30px 0 #00000088;
+        box-shadow: 0 0 30px 0 var(--main-shadow-color);
     }
 
     .navbar-item-shadow {
-        box-shadow: 0 0 10px 0 #00000088;
+        box-shadow: 0 0 10px 0 var(--main-shadow-color);
     }
 
     .text-content * {
