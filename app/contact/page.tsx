@@ -10,6 +10,8 @@ export default function Contact() {
                 <span>UCSC Email:</span> <a href="mailto:wmularsk@ucsc.edu">wmularsk@ucsc.edu</a>
                 <br></br>
                 <span>Github:</span> <a href="https://github.com/fjordimm">github.com/fjordimm</a>
+                <br></br>
+                <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/william-mularski-597a71245">www.linkedin.com/in/william-mularski-597a71245</a>
             </p>
         </TextContent>
     );

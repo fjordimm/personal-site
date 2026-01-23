@@ -18,8 +18,8 @@ const fontAleo = Aleo({
 });
 
 export const metadata: Metadata = {
-    title: "Temporary Title",
-    description: "Temporary description",
+    title: "Bill Mularski",
+    description: "My personal website.",
 };
 
 export default function RootLayout({
