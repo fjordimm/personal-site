@@ -28,6 +28,25 @@
     .navbar-item-shadow {
         box-shadow: 0 0 10px 0 #00000088;
     }
+
+    .text-content * {
+        font-size: 14pt;
+        font-weight: 400;
+    }
+
+    .text-content h1 {
+        font-size: 60pt;
+        font-weight: 900;
+    }
+
+    .text-content h2 {
+        font-size: 30pt;
+        font-weight: 900;
+    }
+
+    .text-content a {
+        text-decoration: underline;
+    }
 }
 
 @layer base {
