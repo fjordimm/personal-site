@@ -36,7 +36,7 @@ export default function RootLayout({
                         <Navbar></Navbar>
                         <div className="grow max-h-screen overflow-x-hidden flex flex-row justify-center inset-shadow-top px-30">
                             <div className="grow max-h-screen min-w-[1000px] flex flex-row justify-center bg-content-inner-overlay outset-shadow-sides">
-                                <div className="grow max-w-screen overflow-y-auto px-15 py-7">
+                                <div className="grow max-w-screen overflow-y-auto px-15 py-7 flex flex-col items-stretch">
                                     {children}
                                 </div>
                             </div>
