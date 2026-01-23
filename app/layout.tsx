@@ -30,13 +30,13 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${fontMukta.variable} ${fontAleo.variable} antialiased`}>
-                <main className="relative h-screen bg-beige-main overflow-x-hidden">
+                <main className="relative h-screen overflow-x-hidden bg-beige-main">
                     <img className="absolute inset-0 w-full h-full object-cover" src={personalBackground.src}></img>
-                    <div className="relative z-100 flex flex-col min-h-screen">
+                    <div className="relative z-100 flex flex-col min-h-screen max-h-screen">
                         <Navbar></Navbar>
-                        <div className="grow inset-shadow-top flex flex-row justify-center overflow-hidden px-30">
-                            <div className="grow bg-content-inner-overlay min-w-[1000px] outset-shadow-sides flex flex-row justify-center">
-                                <div className="grow max-w-screen mx-15 my-7 p-1">
+                        <div className="grow max-h-screen overflow-x-hidden flex flex-row justify-center inset-shadow-top px-30">
+                            <div className="grow max-h-screen min-w-[1000px] flex flex-row justify-center bg-content-inner-overlay outset-shadow-sides">
+                                <div className="grow max-w-screen overflow-y-auto px-15 py-7">
                                     {children}
                                 </div>
                             </div>
