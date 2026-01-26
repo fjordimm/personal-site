@@ -38,6 +38,7 @@
     .text-content h1 {
         font-size: 60pt;
         font-weight: 900;
+        max-size: 10%;
     }
 
     .text-content h2 {

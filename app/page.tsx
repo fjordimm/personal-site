@@ -1,10 +1,13 @@
+import Link from "next/link";
 import IconLink from "./components/IconLink";
+import TextContent from "./components/TextContent";
 import professionalPhoto from "./res/images/professional_photo.png";
 
 export default function Home() {
     return (
         <div className="grow flex flex-col items-center justify-center gap-3">
             <img src={professionalPhoto.src} width="150px" height="150px" className="rounded-full"></img>
+            
             <div className="flex flex-row gap-3">
                 <IconLink href="https://github.com/fjordimm">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 30 30">
@@ -17,6 +20,8 @@ export default function Home() {
                     </svg>
                 </IconLink>
             </div>
+
+            <TextContent><a href="/projects">Check out my projects</a></TextContent>
         </div>
     );
 }
