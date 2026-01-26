@@ -21,7 +21,7 @@ export default function Home() {
                 </IconLink>
             </div>
 
-            <TextContent><a href="/projects">Check out my projects</a></TextContent>
+            <TextContent><Link href="/projects">Check out my projects</Link></TextContent>
         </div>
     );
 }
