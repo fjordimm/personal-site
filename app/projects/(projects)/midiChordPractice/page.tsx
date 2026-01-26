@@ -1,4 +1,4 @@
-import piano from "../../../res/images/midiChordPractice/piano.png";
+import fig1 from "../../../res/images/midiChordPractice/fig1.png";
 
 export default function MidiChordPractice() {
     return (
@@ -10,7 +10,7 @@ export default function MidiChordPractice() {
 
             <br></br>
             <h2>Overview</h2>
-            <img src={piano.src} width="50%"></img>
+            <img src={fig1.src} width="50%"></img>
             <p>
                 I wanted to get better at quickly identifying the notes in a chord and playing them on piano, so I made a simple website in HTML, CSS, and JavaScript to help me practice.
                 It generates random chord names and, given midi input, displays key presses in green if correct, and in red if incorrect.
